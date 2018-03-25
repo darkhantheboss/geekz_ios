@@ -1,0 +1,90 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - BSColorUtils (1.0.2)
+  - BulletinBoard (1.3.0)
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - Fabric (1.7.2)
+  - FacebookCore (0.3.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.27)
+  - FBSDKCoreKit (4.27.1):
+    - Bolts (~> 1.7)
+  - GCDWebServer (3.4.1):
+    - GCDWebServer/Core (= 3.4.1)
+  - GCDWebServer/Core (3.4.1)
+  - Highlightr (1.1.0)
+  - LUAutocompleteView (2.0.0)
+  - Realm (2.10.0):
+    - Realm/Headers (= 2.10.0)
+  - Realm/Headers (2.10.0)
+  - RealmSwift (2.10.0):
+    - Realm (= 2.10.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SnapKit (3.2.0)
+  - SwiftKeychainWrapper (3.0.1)
+  - SwiftyStoreKit (0.11.0)
+  - Then (2.2.0)
+  - WaitForIt (1.1.0)
+
+DEPENDENCIES:
+  - BSColorUtils (from `https://github.com/SlayterDev/BSColorUtils`)
+  - BulletinBoard
+  - Crashlytics
+  - Fabric
+  - FacebookCore
+  - GCDWebServer (~> 3.0)
+  - Highlightr (from `https://github.com/raspu/Highlightr.git`)
+  - LUAutocompleteView
+  - RealmSwift (<= 2.10.0)
+  - SDWebImage (~> 3.8)
+  - SnapKit (<= 3.2.0)
+  - SwiftKeychainWrapper
+  - SwiftyStoreKit
+  - Then
+  - WaitForIt
+
+EXTERNAL SOURCES:
+  BSColorUtils:
+    :git: https://github.com/SlayterDev/BSColorUtils
+  Highlightr:
+    :git: https://github.com/raspu/Highlightr.git
+
+CHECKOUT OPTIONS:
+  BSColorUtils:
+    :commit: 953ec48826fb938045771af49c57087218d8ee9f
+    :git: https://github.com/SlayterDev/BSColorUtils
+  Highlightr:
+    :commit: c95539e8417448b6ba22d06dd66667cd2046f393
+    :git: https://github.com/raspu/Highlightr.git
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  BSColorUtils: af322f5fae883bf102fcdf04afc26e56496e2829
+  BulletinBoard: 23c9d98cac654fd484d76f2a0655669974e9bd9c
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
+  FacebookCore: 3ffa190a3f1f96cec0e44d3fc221bc322c595ffa
+  FBSDKCoreKit: 03365dad5d790249196ffad8be4f6d8a2d98f932
+  GCDWebServer: 1db60034fe0e78a4a8524bd6c7cd97cd3c589870
+  Highlightr: 70c4df19e4aa55aa1b4387fb98182abce1dec9da
+  LUAutocompleteView: 38bdad1c826a45f7980ce285ba7d566adf0edf1d
+  Realm: 98b3a25643cf6b3e07d2b99fb43fe0eb9c801dec
+  RealmSwift: 34073ad3a31232bbaf7c0db898c037940284cba2
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+  SwiftyStoreKit: c5cb38110cb01b55b9c5f25d7f69d0083650b2a4
+  Then: 823f9813e1d4d0a814a5ba15e9c9d33ec7aca631
+  WaitForIt: 5f85af0fece69b5f5a12df4de550cf7eb22664f1
+
+PODFILE CHECKSUM: 3cbfc3ea8c42f97feafcc30754e09064a36973c0
+
+COCOAPODS: 1.4.0
